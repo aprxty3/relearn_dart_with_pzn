@@ -7,4 +7,6 @@ void main() {
   print(cate1 ==
       cate2); //false karna object yg berbeda akan berubah true jika override datanya
   print(cate1 == cate1); //true karna objectnya sama
+
+
 }

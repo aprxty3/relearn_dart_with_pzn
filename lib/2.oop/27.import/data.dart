@@ -18,4 +18,11 @@ class Category {
       return false;
     }
   }
+
+  //override hashCode
+  int get hashCode {
+    var res = id.hashCode;
+    res += name.hashCode;
+    return res;
+  }
 }
