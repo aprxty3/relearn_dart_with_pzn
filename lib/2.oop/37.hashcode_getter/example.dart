@@ -3,6 +3,7 @@ import 'package:relearn_dart_with_pzn/2.oop/27.import/data.dart';
 void main() {
   var cate1 = Category('laptop', '1');
   var cate2 = Category('laptop', '1');
+  var cate3 = Category('aaa', '2');
 
   print(cate1 ==
       cate2); //false karna object yg berbeda akan berubah true jika override datanya
@@ -12,4 +13,5 @@ void main() {
 
   print(cate1.hashCode);
   print(cate2.hashCode);
+  print(cate3.hashCode);
 }
