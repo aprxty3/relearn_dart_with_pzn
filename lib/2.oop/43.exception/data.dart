@@ -4,6 +4,8 @@ class Validation {
       throw ValidationException('Username is Blank');
     } else if (password == "") {
       throw ValidationException('Password is Blank');
+    } else if (username != 'eko' || password != 'eko') {
+      throw Exception('login failed');
     }
   }
 }
