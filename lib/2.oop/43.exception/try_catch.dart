@@ -7,5 +7,7 @@ void main() {
     print('Error : ${exception.message}');
   } on Exception catch (exception) {
     print('Error : ${exception.toString()}');
+  } finally {
+    print('program selesai');
   }
 }
