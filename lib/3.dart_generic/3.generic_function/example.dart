@@ -4,6 +4,13 @@ void main() {
 
   print(ArrayHelper.count(numbers));
   print(ArrayHelper.count(names));
+
+  print(count(numbers));
+  print(count(names));
+}
+
+int count<T>(List<T> list) {
+  return list.length;
 }
 
 class ArrayHelper {
