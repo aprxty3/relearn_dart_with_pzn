@@ -1,9 +1,18 @@
 void main() {
+  //TODO growable list
   final list = <int>[];
-
   list.add(1);
   list.add(2);
   list.add(3);
 
   print(list);
+
+  print('-------------------');
+
+  //TODO fixed list
+  final list1 = List<int>.filled(10, 0);
+
+  print(list1);
+
+  list1.add(10); //akan error karna datanya fixed dan gabisa bertambah
 }
