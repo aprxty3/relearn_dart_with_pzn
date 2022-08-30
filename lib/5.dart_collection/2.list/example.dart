@@ -14,5 +14,5 @@ void main() {
 
   print(list1);
 
-  list1.add(10); //akan error karna datanya fixed dan gabisa bertambah
+  // list1.add(10); //akan error karna datanya fixed dan gabisa bertambah
 }
