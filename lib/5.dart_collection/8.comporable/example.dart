@@ -6,7 +6,9 @@ void main() {
   print(1.compareTo(1));
   print('--------------');
   //TODO error karena uncomparable
-  final treeSet = SplayTreeSet<Category>();
+  final treeSet = SplayTreeSet<Category>(
+    (key1, key2) => key2.compareTo(key1),
+  );
   treeSet.add(Category('1', 'Cate 1'));
   treeSet.add(Category('2', 'Cate 2'));
   treeSet.add(Category('3', 'Cate 3'));
