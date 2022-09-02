@@ -7,6 +7,7 @@ void main() {
   queue.addLast('Tyooo');
   queue.addLast('Praasss');
 
+  print(queue);
   print(queue.removeFirst());
   print(queue);
   print(queue.removeFirst());
