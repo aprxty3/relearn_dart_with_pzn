@@ -8,8 +8,9 @@ void main() {
   queue.addLast('Praasss');
 
   print(queue.removeFirst());
+  print(queue);
   print(queue.removeFirst());
+  print(queue);
   print(queue.removeFirst());
-
   print(queue);
 }
