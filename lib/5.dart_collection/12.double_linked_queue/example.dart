@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 void main() {
+  //TODO lebih cocok digunakan daripada Queue
   final queue = DoubleLinkedQueue<String>();
 
   queue.addLast('Ajii');
