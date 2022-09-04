@@ -14,4 +14,6 @@ void main() {
   print(names.skipWhile((value) =>
       value.length < 4)); //diliat dari ada brapa huruf dalam 1 String
   print(names.takeWhile((value) => value.length < 4));
+  print(names.where((element) => element.length < 4));
+  print(names.where((element) => element.length > 3));
 }
