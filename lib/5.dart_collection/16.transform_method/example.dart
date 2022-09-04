@@ -7,4 +7,5 @@ void main() {
   print(numbers.reduce((value, element) => value + element));
   //konsep reduce yaitu 1 + 2 => 3 + 3 => 6 + 4 => 10 dan seterusnya
 
+  print(numbers.fold('', (value, element) => '$value, $element'));
 }
