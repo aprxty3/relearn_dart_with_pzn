@@ -9,4 +9,9 @@ void main() {
   print(numbers.skip(4));
   print(numbers.take(4)); //mengambil data diawal
 
+  final names = ['aji', 'dwi', 'pras', 'setyo', 'tyo'];
+
+  print(names.skipWhile((value) =>
+      value.length < 4)); //diliat dari ada brapa huruf dalam 1 String
+  print(names.takeWhile((value) => value.length < 4));
 }
